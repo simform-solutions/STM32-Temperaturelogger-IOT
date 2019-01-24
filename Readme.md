@@ -6,7 +6,7 @@ STM32F103C8 MCU collect Temperature data from DS18B20 Temperature sensor and get
 
  Schematic Diagram
 
- http://prntscr.com/mbh235
+https://github.com/simformsolutions/STM32-Temperaturelogger-IOT/blob/master/screenshots/screenshot1.png
 
 
 DS18B20 Temperature sensor connect with stm32 MCU using 1 wire bus protocol
@@ -27,21 +27,23 @@ Code :-
 
  This following code first configure clock and enable GPIO port then initialize UART communication and send AT commands for configure GPRS services and initialize RTC module.
 
-http://prntscr.com/mbh2nt
+https://github.com/simformsolutions/STM32-Temperaturelogger-IOT/blob/master/screenshots/screenshot2.png
 
 This following code initialize sd card with STM32 and create csv file if not present in sd card.
 
-http://prntscr.com/mbh35m
+https://github.com/simformsolutions/STM32-Temperaturelogger-IOT/blob/master/screenshots/screenshot3.png
 
 This following code get current Date & Time from RTC module and get temperature data from sensor and write  temperature and date and time stamp data into csv file.
 
-http://prntscr.com/mbh3ds
+https://github.com/simformsolutions/STM32-Temperaturelogger-IOT/blob/master/screenshots/screenshot4.png
 
 
 This following code stm32 send AT commands to GSM module for intialize http service and send temperature data to cloud.
 
-http://prntscr.com/mbh3lf
+
+https://github.com/simformsolutions/STM32-Temperaturelogger-IOT/blob/master/screenshots/screenshot5.png
 
  This following code apply kalman filter formula on temperature data and give filter value
  
-http://prntscr.com/mbh3qh
+
+https://github.com/simformsolutions/STM32-Temperaturelogger-IOT/blob/master/screenshots/screenshot6.png
